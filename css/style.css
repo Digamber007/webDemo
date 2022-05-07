@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light| Tangerine');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.homepage {
+    background-color: #e0e0e0;
+}
+
+.navBackground {
+
+  background-image: url("../css/img/workplace.jpg");
+  background-repeat: no-repeat;
+  background-position: relative;
+ }
+
+nav .navbar {
+  background-color: #343a4000!important;
+}
+
+.jumbotron {
+      background-color: transparent !important;
+      width: 100%;
+      height: 500%;
+    /*  color: #fff; */
+      color: #343a40;
+}
+.jumbotron .container .display-4 {
+      background-color: transparent !important;
+      width: 100%;
+      height: 500%;
+      color: #fff;
+
+}
+
+.jumbotron .container {
+      padding-top: 70px;
+      text-align: left;
+}
+
+div .model-title #exampleModalLongTitle {
+      color: #000!important;
+}
+
+
+form {
+      color: #000;
+}
+
+div .Services {
+
+      color: #7d8187;
+      text-align: center;
+
+}
+
+div .service2 {
+      color: #000;
+      margin: 10px;
+      padding: 40px;
+      text-align: center;
+
+
+}
+
+
+div .service2 .fas  {
+     color: #343a40;
+      size: 30px;
+}
+
+div .service2 .fa {
+  color: #343a40;
+}
+
+
+div .Features {
+
+      color: #7d8187;
+      text-align: left;
+
+}
+
+
+a  {
+  color: #343a40;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7d8187;
+
+}
+
+div .fas:hover {
+     color:  #7d8187;
+
+}
+
+div  .fa:hover {
+  color:  #7d8187;
+}
+
+.footer {
+
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90%;
+    background-color: #343a40;
+    color: #fff;
+}
+
+.f-logo {
+  padding: 5%;
+}
+
+.f-head {
+  padding: 10%;
+  margin: 15px;
+}
+
+.f-head ul li {
+
+      margin: -20;
+}
+
+.footer ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 15px;
+  padding: 5px 0px;
+
+}
+
+.footer a {
+  color: #fff;
+
+
+}
+
+.social-footer {
+     padding-top: 145px;
+     padding-bottom: 30px;
+}
+
+.social-footer li {
+     text-align: center;
+     display: inline;
+     margin: 15px;
+
+}
+
+.social-footer .social-footer-icons .fab {
+  font-size: 4rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fab:hover {
+  color: #4a4a4a;
+  transition: color 0.5s ease-in;
+}
+
+
+@media (min-width: 576px) {
+
+
+  .social-footer {
+       padding-top: 145px;
+       padding-bottom: 30px;
+  }
+
+  .social-footer .social-footer-icons .fab {
+    font-size: 4rem;
+    color: #fefefe;
+  }
+  .social-footer li {
+       text-align: center;
+
+  }
+
+}
